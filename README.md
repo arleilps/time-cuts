@@ -11,9 +11,12 @@ The main functions are implemented in time_graph.py, which includes a wrapper fo
 
 Example of usage:
 
-#Reads input graph (primary school) with swap cost of .05
+#Reads input graph (primary school) with swap cost of .0249
+
 G = read_time_graph(primary_school["graph"], .0249)
+
 G.make_connected(0.005)
+
 c = prod_cut(G)
 
 print(c)
@@ -30,11 +33,15 @@ but some wrappers that can be used  to reproduce the comparison. The source-code
 can be found in the following links:
 
 FacetNet: https://ame2.asu.edu/students/lin/code/snmf_evol.zip
+
 GenLovain: http://netwiki.amath.unc.edu/GenLouvain/GenLouvain 
 
 For more details, see the paper:  
+
 [Spectral Algorithms for Temporal Graph Cuts ](http://www.cs.ucsb.edu/~arlei/pubs/www18.pdf "")  
+
 Arlei Silva, Ambuj K Singh, Ananthram Swami  
+
 The Web Conference (WWW), 2018. 
 
 Arlei Silva (arlei@cs.ucsb.edu)
