@@ -2,14 +2,23 @@
 
 Evaluation is performed using python notebooks.
 
+Approximation experiments:
+
+https://nbviewer.jupyter.org/github/arleilps/time-cuts/blob/master/Ratio_beta_experiments.ipynb
+
 Performance experiments:
 
+https://nbviewer.jupyter.org/github/arleilps/time-cuts/blob/master/Performance_experiments.ipynb
+
 Compression experiments:
+
+https://nbviewer.jupyter.org/github/arleilps/time-cuts/blob/master/Signal%20Processing.ipynb
 
 The main functions are implemented in time_graph.py, which includes a wrapper for several temporal cut algorithms.
 
 Example of usage:
 
+```python
 #Reads input graph (primary school) with swap cost of .0249
 
 G = read_time_graph(primary_school["graph"], .0249)
@@ -25,7 +34,7 @@ print(c)
   'edges': 3.991778580973271,
   'swaps': 0.04979999999999988},
  array([-0.02384887, -0.02996254,... -0.06425752]))
-
+```
 
 Notice that we purposefully did not include the code for the baseline community detection methods, 
 but some wrappers that can be used  to reproduce the comparison. The source-code for the baselines 
