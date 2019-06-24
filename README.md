@@ -1,5 +1,4 @@
-# time-cuts
-Implementation of spectral algorithms for temporal graph cuts.
+# Implementation of spectral algorithms for temporal graph cuts.
 
 Evaluation is performed using python notebooks.
 
@@ -33,15 +32,11 @@ but some wrappers that can be used  to reproduce the comparison. The source-code
 can be found in the following links:
 
 FacetNet: https://ame2.asu.edu/students/lin/code/snmf_evol.zip
-
 GenLovain: http://netwiki.amath.unc.edu/GenLouvain/GenLouvain 
 
 For more details, see the paper:  
-
 [Spectral Algorithms for Temporal Graph Cuts ](http://www.cs.ucsb.edu/~arlei/pubs/www18.pdf "")  
-
 Arlei Silva, Ambuj K Singh, Ananthram Swami  
-
 The Web Conference (WWW), 2018. 
 
 Arlei Silva (arlei@cs.ucsb.edu)
